@@ -1,4 +1,11 @@
-# lab1
+# CS2901 - Lab1
+
+## Objetivos
+Al finalizar este laboratorio, estarás en la capacidad de:
+- Familiarizarse con el lenguaje de programación ```JAVA```
+- Gestionar dependencias utilizando maven (nivel 2).
+- Comprender la importancia de la calidad de software (nivel 1)
+
 
 ## Instrucciones
 Implementa la función  	`public  static List<String> calculate(int n)` 
@@ -23,11 +30,14 @@ public class FizzBuzz {
   
 ## Ten en cuenta lo siguiente
 ### Build
+Este comando te permite construir la aplicación compilando el codigo fuente del proyecto
+
 ```
 mvn compile
 ```
 
 ### Run
+Usando este comando podrás ejecutar la aplicación construída en el punto anterior.
 ```
 mvn exec:java -Dexec.mainClass="FizzBuzz"
 ```
